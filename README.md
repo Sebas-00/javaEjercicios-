@@ -28,3 +28,44 @@ class Main {
             
       }
 }
+
+
+
+//EJERCICIO 2
+
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+         
+
+     Scanner sc = new Scanner (System.in);
+    String nombre, edad, correo_personal; 
+     
+     
+     System.out.print("Por favor escribe tu nombre:");
+     nombre = sc.nextLine();
+     System.out.print("Por favor ingresa tu edad:");
+     edad = sc.nextLine();
+     System.out.print("Por ultimo ingresa tu correo personal: "); 
+     correo_personal  = sc.nextLine();
+     
+       
+    System.out.println("su nombre es:" + nombre);
+    
+    
+    System.out.println("su edad es:"+ edad);
+    
+    
+    System.out.println("su correo personal es:"  + correo_personal);
+      
+      
+      
+      
+      }
+      
+    } 
+
+
+
+
