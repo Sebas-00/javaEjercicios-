@@ -5,6 +5,9 @@
 import java.util.Scanner;
 class Main {
     public static void main(String[] args) {
+    
+     //Definimos variables 
+
      
      double numero1;
      double numero2;
@@ -18,7 +21,7 @@ class Main {
       System.out.print("Ingresa el segundo numero:"); 
       numero2 = sc.nextDouble(); 
       
-       
+       //Empezamos la operaciones aritmeticas
        
         System.out.println("La suma es:" + (numero1 + numero2)); 
         System.out.println("La resta es:" + (numero1 - numero2)); 
@@ -38,6 +41,8 @@ import java.util.Scanner;
 class Main {
     public static void main(String[] args) {
          
+//Inicamos la clase Scanner
+
 
      Scanner sc = new Scanner (System.in);
     String nombre, edad, correo_personal; 
@@ -50,7 +55,9 @@ class Main {
      System.out.print("Por ultimo ingresa tu correo personal: "); 
      correo_personal  = sc.nextLine();
      
-       
+     //Empezamos con la recoleccion de datos 
+
+     
     System.out.println("su nombre es:" + nombre);
     
     
@@ -73,7 +80,7 @@ class Main {
 public class ejercicioTres {
     public static void main(String[] args) {
    
-   
+   // Definimos todas las variables 
         int numIngresado;
         double numA;
         double numB;
@@ -84,11 +91,14 @@ public class ejercicioTres {
         double alturaB;
         Scanner sc = new Scanner(System.in);
 
+      // Iniciamos con las decisiones al usuario 
       
         System.out.println("a que deseas encontrarle el area? ");
         System.out.println("1. circulo ");
         System.out.println("2. rectangulo ");
         System.out.println("3. triangulo");
+        
+        // Inicamos con los casos despues de la decision del usuario 
         
         numIngresado = sc.nextInt();
         
@@ -127,7 +137,7 @@ public class ejercicioTres {
                 System.out.print("el area del triangulo es: " + (numA * numB / 2));
                 break;
                 
-                
+                //Terminamos con los ejercicios 
        
         }  
     }
